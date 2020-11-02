@@ -1,4 +1,4 @@
-# tasklist
+# Tasklist
 
 Created with JS, HTML and CSS.
 
