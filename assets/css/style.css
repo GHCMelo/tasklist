@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+  --primary-color: #6433FF;
+  --primary-color-darker:#5524F2;
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.1em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+form input, form label, form button {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+input {
+  font-size: 24px;
+  height: 50px;
+  padding: 0 20px;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  border: none;
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 16px;
+  /* font-weight: 700; */
+  padding: 0 15px;
+  height: 50px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: var(--primary-color-darker);
+}
+
+.addTask{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 40px;
+  justify-content: center;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+ul li{
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete{
+  height: 40px;
+  border-radius: 10px;
+}
